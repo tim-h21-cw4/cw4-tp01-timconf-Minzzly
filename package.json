@@ -42,11 +42,13 @@
       [
         "@babel/preset-env",
         {
-          "targets": { "node": "current" }
+          "targets": {
+            "node": "current"
+          }
         }
       ]
     ]
-  },  
+  },
   "main": "index.js",
   "license": "MIT"
 }
