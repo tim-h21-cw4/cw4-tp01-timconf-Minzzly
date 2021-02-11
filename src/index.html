@@ -1,191 +1,256 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TimTools</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TimTools</title>
+        <link rel="stylesheet" href="styles/main.css" />
 
-    <link rel="stylesheet" href="styles/main.css">
+        <script src="scripts/main.js" defer></script>
+    </head>
 
-    <script src="scripts/main.js" defer></script>
-</head>
+    <body>
+        <header>
+            <img src="assets/images/logoSite.png" alt="Le logo du site" />
 
-<body>
+            <nav class="navPrincipal">
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Conférences</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href=""> À propos</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <button>Acheter</button>
+            </nav>
+        </header>
 
-    <header>
-        <img src="assets/images/logoSite.png" alt="Le logo du site">
+        <section class="hero">
+            <div class="texteHero">
+                <h1 class="titreHero">Photoconf</h1>
+                <p class="dates">14-16 mai 2021</p>
+                <p class="descriptionhero">
+                    Venez découvrir ce qu’es la vie quotidienne des photographes
+                    proffessionnel içi à Montréal.
+                </p>
+                <button>Lire plus</button>
+            </div>
+            <img src="assets/images/hero.png" alt="" class="imageHero" />
+        </section>
 
-        <nav class="navPrincipal">
-            <ul>
-                <li> <a href="">Accueil</a> </li>
-                <li> <a href="">Conférences</a> </li>
-                <li> <a href="">Information</a> </li>
-                <li> <a href=""> À propos</a></li>
-                <li> <a href="">Contact</a> </li>
+        <section class="partenaires">
+            <img src="assets/images/Gosselin.png" alt="logo de Gosselin" />
+            <img src="assets/images/Canon.png" alt="logo de Canon" />
+            <img src="assets/images/Kodak.png" alt="logo de Kodak" />
+            <img src="assets/images/Nikon.png" alt="logo de Nikon" />
+            <img src="assets/images/Sony.png" alt="logo de Sony" />
+            <img src="assets/images/Samsung.png" alt="logo de Samsung" />
+            <img src="assets/images/Toshiba.png" alt="logo de Toshiba" />
+            <img src="assets/images/Panasonic.png" alt="logo de Panasonic" />
+        </section>
+
+        <section class="groupeForfaits">
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>Une journée</h2>
+                <p class="descriptionForfait">
+                    Vous êtes juste curieux de voir les artistes? Ce forfait est
+                    parfait pour vous. Vous avez une journée (vendredi, samedi
+                    ouo dimanche) pour découvrir le monde de la photographie.
+                </p>
+                <p class="prix">50$</p>
+            </article>
+
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>Fin de semaine</h2>
+                <p class="descriptionForfait">
+                    Vous n’avez pas le temps durant la semaine pour voir des
+                    conférences? Pas de problème. Ce forfait de fin de semaine
+                    vous laisse avoir le 2/3 de l’expérience photographique.
+                </p>
+                <p class="prix">80$</p>
+            </article>
+
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>Trois jours</h2>
+                <p class="descriptionForfait">
+                    Le plaisir de voirs tous les conférences des photographes et
+                    avoir le plus de connaissance pour apprendre d’avantage
+                    leurs vie.
+                </p>
+                <p class="prix">120$</p>
+            </article>
+
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>VIP d'un jour</h2>
+                <p class="descriptionForfait">
+                    Fanatique de la photographie et vous voudrez rencontrer vos
+                    photographes préféré.. Ce forfait vous le permet de les voir
+                    pour une des journées.
+                </p>
+                <p class="prix">200$</p>
+            </article>
+
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>VIP trois jours</h2>
+                <p class="descriptionForfait">
+                    Ce forfait est seulement pour les méga fanatique de la
+                    photographie. Rencontrez vos artiste préférer tous les jours
+                    des conférences.
+                </p>
+                <p class="prix">250$</p>
+            </article>
+
+            <article class="forfait">
+                <img
+                    src="assets/images/forfait.png"
+                    alt="illustration de forfait"
+                />
+                <h2>Rabais étudiants</h2>
+                <p class="descriptionForfait">
+                    Lisez plus sur les rabais d’étudiants pour voir les
+                    différents opportunités.
+                </p>
+                <p class="prix">Lire</p>
+            </article>
+        </section>
+
+        <section class="conferencier">
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier1.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Sarah Michel</h3>
+                        <p class="carriere">Photographe de mode</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier2.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Philippe Moulin</h3>
+                        <p class="carriere">Photographe commercial</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier3.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Paul Monette</h3>
+                        <p class="carriere">Photographe de pieds</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier4.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Coralie Popelin</h3>
+                        <p class="carriere">Photographe d'animaux</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier5.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Timmy Fortain</h3>
+                        <p class="carriere">Photographe Bourdoir</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+
+            <a href="conferencier.html">
+                <article class="artiste">
+                    <img
+                        src="assets/images/Conferencier6.png"
+                        alt="images d'une photographe"
+                    />
+                    <div class="infoArtiste">
+                        <h3 class="nomArtiste">Michelle Forestier</h3>
+                        <p class="carriere">Photographe médical</p>
+                        <img src="assets/images/plus.svg" alt="" />
+                    </div>
+                </article>
+            </a>
+        </section>
+
+        <footer>
+            <img src="assets/images/logoSite.png" alt="logo du site" />
+
+            <ul class="navFooter">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Conférences</a></li>
+                <li><a href="">Information</a></li>
+                <li><a href=""> À propos</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Rejoindre l'équipe</a></li>
             </ul>
-            <button>Acheter</button>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <div class="texteHero">
-            <h1 class="titreHero">Photoconf</h1>
-            <p class="dates">14-16 mai 2021</p>
-            <p class="descriptionhero">Venez découvrir ce qu’es la vie quotidienne des photographes proffessionnel içi à Montréal.</p>
-            <button>Lire plus</button>
-        </div>
-        <img src="assets/images/hero.png" alt="" class="imageHero">
-    </section>
-    
-    <section class="partenaires">
-        <img src="assets/images/Gosselin.png" alt="logo de Gosselin">
-        <img src="assets/images/Canon.png" alt="logo de Canon">
-        <img src="assets/images/Kodak.png" alt="logo de Kodak">
-        <img src="assets/images/Nikon.png" alt="logo de Nikon">
-        <img src="assets/images/Sony.png" alt="logo de Sony">
-        <img src="assets/images/Samsung.png" alt="logo de Samsung">
-        <img src="assets/images/Toshiba.png" alt="logo de Toshiba">
-        <img src="assets/images/Panasonic.png" alt="logo de Panasonic">
-    </section>
-    
-    <section class="groupeForfaits">
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>Une journée</h2>
-            <p class="descriptionForfait">Vous êtes juste curieux de voir les artistes? Ce forfait est parfait pour vous. Vous avez une journée (vendredi, samedi ouo dimanche) 
-                pour découvrir le monde de la photographie.</p>
-            <p class="prix">50$</p>
-        </article>
+            <hr />
 
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>Fin de semaine</h2>
-            <p class="descriptionForfait">Vous n’avez pas le temps durant la semaine pour voir des conférences? 
-                Pas de problème. Ce forfait de fin de semaine vous laisse avoir le 2/3 de l’expérience photographique.</p>
-            <p class="prix">80$</p>
-        </article>
-        
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>Trois jours</h2>
-            <p class="descriptionForfait">Le plaisir de voirs tous les conférences des photographes et avoir le plus de connaissance pour apprendre d’avantage leurs vie.</p>
-            <p class="prix">120$</p>
-        </article>
+            <p class="copyright">© 2020 TimConf. Tous droits réservés</p>
 
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>VIP d'un jour</h2>
-            <p class="descriptionForfait">Fanatique de la photographie et vous voudrez rencontrer vos photographes préféré.. Ce forfait vous le permet de les voir pour une des journées.</p>
-            <p class="prix">200$</p>
-        </article>
-
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>VIP trois jours</h2>
-            <p class="descriptionForfait">Ce forfait est seulement pour les méga fanatique de la photographie. Rencontrez vos artiste préférer tous les jours des conférences.</p>
-            <p class="prix">250$</p>
-        </article>
-
-        <article class="forfait">
-            <img src="assets/images/forfait.png" alt="illustration de forfait">
-            <h2>Rabais étudiants</h2>
-            <p class="descriptionForfait">Lisez plus sur les rabais d’étudiants pour voir les différents opportunités.</p>
-            <p class="prix">Lire</p>
-        </article>
-    </section>
-
-    <section class="conferencier">
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier1.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Sarah Michel</h3>
-                    <p class="carriere">Photographe de mode</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier2.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Philippe Moulin</h3>
-                    <p class="carriere">Photographe commercial</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier3.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Paul Monette</h3>
-                    <p class="carriere">Photographe de pieds</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier4.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Coralie Popelin</h3>
-                    <p class="carriere">Photographe d'animaux</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier5.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Timmy Fortain</h3>
-                    <p class="carriere">Photographe Bourdoir</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-
-        <a href="conferencier.html">
-            <article class="artiste">
-                <img src="assets/images/Conferencier6.png" alt="images d'une photographe">
-                <div class="infoArtiste">
-                    <h3 class="nomArtiste">Michelle Forestier</h3>
-                    <p class="carriere">Photographe médical</p>
-                    <img src="assets/images/plus.svg" alt="">
-                </div>
-            </article>
-        </a>
-    </section>
-
-    <footer>
-        <img src="assets/images/logoSite.png" alt="logo du site">
-
-        <ul class="navFooter">
-            <li> <a href="">Accueil</a> </li>
-            <li> <a href="">Conférences</a> </li>
-            <li> <a href="">Information</a> </li>
-            <li> <a href=""> À propos</a></li>
-            <li> <a href="">Contact</a> </li>
-            <li> <a href="">Rejoindre l'équipe</a> </li>
-        </ul>
-
-        <hr>
-
-        <p class="copyright">© 2020 TimConf. Tous droits réservés</p>
-
-        <div class="mediasSociaux">
-            <a href=""><img src="assets/images/Medias1.svg" alt="logo medias"></a> 
-            <a href=""><img src="assets/images/Medias2.svg" alt="logo medias"></a> 
-            <a href=""><img src="assets/images/Medias3.svg" alt="logo medias"></a> 
-            <a href=""><img src="assets/images/Medias4.svg" alt="logo medias"></a> 
-        </div>
-    </footer>
-</body>
-
+            <div class="mediasSociaux">
+                <a href=""
+                    ><img src="assets/images/Medias1.svg" alt="logo medias"
+                /></a>
+                <a href=""
+                    ><img src="assets/images/Medias2.svg" alt="logo medias"
+                /></a>
+                <a href=""
+                    ><img src="assets/images/Medias3.svg" alt="logo medias"
+                /></a>
+                <a href=""
+                    ><img src="assets/images/Medias4.svg" alt="logo medias"
+                /></a>
+            </div>
+        </footer>
+    </body>
 </html>
