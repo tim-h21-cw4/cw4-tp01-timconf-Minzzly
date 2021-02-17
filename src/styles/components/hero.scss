@@ -1,0 +1,19 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texteHero {
+        width: 50%;
+        margin: 0 10%;
+        h1 {
+            font-family: var(--font-secondary);
+        }
+        .dates {
+            font-weight: var(--fw-bold);
+            color: var(--color-tertiary);
+        }
+    }
+    img {
+        width: 50%;
+    }
+}

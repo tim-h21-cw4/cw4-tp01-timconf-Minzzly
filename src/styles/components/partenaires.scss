@@ -1,0 +1,22 @@
+.partenaires {
+    background-color: var(--color-black);
+    padding: 32px 0;
+    h2 {
+        font-family: var(--font-secondary);
+        color: var(--color-tertiary);
+        margin: 0;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .logosPartenaires {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        img {
+            width: 23%;
+        }
+    }
+}

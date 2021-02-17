@@ -5,6 +5,18 @@
         border-radius: 8px;
         padding: 10px 21px;
 
-        font-weight: 700;
+        font-weight: var(--fw-bold);
+    }
+}
+
+.hero {
+    button {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        border: none;
+        border-radius: 8px;
+        padding: 16px 58px;
+
+        font-weight: var(--fw-bold);
     }
 }
