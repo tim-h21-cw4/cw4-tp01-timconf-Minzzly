@@ -5,24 +5,23 @@
 
 a {
     &:link {
-        color: var(--color-primary);
+        color: var(--color-secondary);
         text-decoration: none;
     }
 
     &:visited {
-        color: var(--color-primary);
+        color: var(--color-secondary);
     }
 
     &:hover {
-        color: var(--color-primary-darker);
-        text-decoration: underline;
+        color: var(--color-tertiary);
     }
 
     &:active {
-        color: var(--color-primary-darker);
+        color: var(--color-secondary);
     }
 
     &:focus {
-        color: var(--color-primary-darker);
+        color: var(--color-secondary);
     }
 }
