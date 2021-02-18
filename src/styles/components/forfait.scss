@@ -1,0 +1,46 @@
+.groupeForfaits {
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p:nth-child(2) {
+        font-size: var(--font-size-text-secondaire);
+        margin: 0;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin-top: 48px;
+
+        article {
+            width: 30%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            transition: all 0.3s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--color-bg-secondary);
+                border-radius: 8px;
+            }
+
+            &:nth-child(-n + 3) {
+                margin-bottom: 64px;
+            }
+            h3 {
+                color: var(--color-tertiary);
+            }
+            .prix {
+                font-size: var(--font-size-h4);
+                font-weight: var(--fw-bold);
+            }
+        }
+    }
+}

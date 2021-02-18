@@ -1,0 +1,51 @@
+.conferenciers {
+    h2 {
+        margin-bottom: 48px;
+    }
+    .groupeConferenciers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .artiste {
+            width: 32%;
+            text-align: center;
+            position: relative;
+
+            overflow: hidden;
+
+            margin-bottom: 30px;
+
+            &:hover {
+                .infoArtiste {
+                    top: 0;
+                }
+            }
+            .imgConferencier {
+                width: 100%;
+                display: block;
+            }
+        }
+        .infoArtiste {
+            background-color: var(--color-black);
+            opacity: 0.9;
+            position: absolute;
+            top: 100%;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+            padding-bottom: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+            transition: top 0.5s ease-out;
+
+            h3 {
+                margin: 0;
+            }
+        }
+    }
+}

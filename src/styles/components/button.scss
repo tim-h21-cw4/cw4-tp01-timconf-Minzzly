@@ -6,6 +6,13 @@
         padding: 10px 21px;
 
         font-weight: var(--fw-bold);
+
+        cursor: pointer;
+        transition: color 0.3s ease-out;
+
+        &:hover {
+            color: var(--color-secondary);
+        }
     }
 }
 
@@ -18,5 +25,12 @@
         padding: 16px 58px;
 
         font-weight: var(--fw-bold);
+
+        cursor: pointer;
+        transition: color 0.3s ease-out;
+
+        &:hover {
+            color: var(--color-tertiary);
+        }
     }
 }

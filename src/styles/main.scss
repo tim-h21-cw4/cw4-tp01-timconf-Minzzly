@@ -19,6 +19,7 @@
 @import 'elements/links';
 @import 'elements/wrapper';
 @import 'elements/ul';
+@import 'elements/h2';
 
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
@@ -27,6 +28,9 @@
 @import 'components/navPrincipal';
 @import 'components/hero';
 @import 'components/partenaires';
+@import 'components/forfait';
+@import 'components/conferenciersAccueil';
+@import 'components/footer';
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 @import 'utilities/accessibility';
