@@ -24,6 +24,9 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
+@import '../../node_modules/swiper/swiper.scss';
+@import '../../node_modules/swiper/components/pagination/pagination.scss';
+
 @import 'components/button';
 @import 'components/navPrincipal';
 @import 'components/hero';
@@ -32,6 +35,7 @@
 @import 'components/conferenciersAccueil';
 @import 'components/footer';
 @import 'components/bioArtiste';
+@import 'components/Caroussel';
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 @import 'utilities/accessibility';

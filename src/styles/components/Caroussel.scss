@@ -1,0 +1,28 @@
+.imgPremierSlide {
+    height: 556px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.conferencierDeuxiemSlide {
+    width: 50%;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--color-bg-primary);
+    opacity: 1;
+    border: solid 3px var(--color-primary);
+
+    width: 22px;
+    height: 22px;
+}
+
+.swiper-pagination-bullet-active {
+    border: none;
+    background-color: var(--color-primary);
+}
+
+.swiper-container {
+    height: 620px;
+}
