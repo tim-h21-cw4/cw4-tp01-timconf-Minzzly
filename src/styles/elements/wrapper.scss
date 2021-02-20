@@ -17,3 +17,27 @@
 .grid-center {
     grid-column: 2/3;
 }
+
+@media screen and (max-width: $breakpoint-lg) {
+    .wrapper {
+        max-width: $breakpoint-md;
+    }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+    .wrapper {
+        max-width: $breakpoint-sm;
+    }
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+    .wrapper {
+        max-width: $breakpoint-xs;
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+    .wrapper {
+        max-width: $breakpoint-xxs;
+    }
+}
