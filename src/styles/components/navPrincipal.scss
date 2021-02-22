@@ -1,12 +1,12 @@
 header {
     background-color: var(--color-primary);
 
-    .wrapper {
+    .navPrincipal {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .navPrincipal {
+    .menuPrincipal {
         display: flex;
     }
 
@@ -18,5 +18,13 @@ header {
     }
     img {
         margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+    header {
+        .navPrincipal {
+            display: none;
+        }
     }
 }

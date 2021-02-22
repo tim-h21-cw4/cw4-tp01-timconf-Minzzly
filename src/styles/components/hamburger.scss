@@ -1,0 +1,91 @@
+.navMobile,
+.mobileModal {
+    display: none;
+}
+
+@media screen and (max-width: $breakpoint-md) {
+    .navMobile,
+    .mobileModal {
+        display: block;
+    }
+    .navMobile {
+        position: relative;
+
+        .hamburgerEtLogo {
+            background-color: var(--color-primary);
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            position: relative;
+            z-index: 2;
+        }
+
+        .mobileModal {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-100%);
+            transition: transform 0.3s ease-out;
+
+            z-index: 1;
+            background-color: var(--color-primary);
+
+            .wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+            }
+
+            &.open {
+                transform: translateY(0);
+            }
+        }
+
+        .menu-hamburger {
+            cursor: pointer;
+
+            span {
+                background-color: var(--color-secondary);
+                display: block;
+                height: 10px;
+                width: 50px;
+                border-radius: 5px;
+                margin-bottom: 6.5px;
+
+                transition: 0.3s transform;
+
+                &:nth-child(1) {
+                    transform-origin: left top;
+                }
+                &:nth-child(2) {
+                    transform-origin: left top;
+                }
+                &:nth-child(3) {
+                    transform-origin: left bottom;
+                }
+            }
+            &.open {
+                span {
+                    &:nth-child(1) {
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        transform: scaleX(0);
+                    }
+                    &:nth-child(3) {
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+            &:hover {
+                span {
+                    background-color: var(--color-tertiary);
+                }
+            }
+        }
+    }
+}
