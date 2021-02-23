@@ -25,21 +25,12 @@
     .partenaires {
         h2 {
             text-align: left;
-            font-size: var(--font-size-768-h2);
         }
         .logosPartenaires {
             img {
                 width: 47%;
                 margin-bottom: 50px;
             }
-        }
-    }
-}
-
-@media screen and (max-width: $breakpoint-xs) {
-    .partenaires {
-        h2 {
-            font-size: var(--font-size-375-h2);
         }
     }
 }

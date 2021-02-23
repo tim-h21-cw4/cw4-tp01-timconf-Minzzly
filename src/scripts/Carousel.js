@@ -21,7 +21,11 @@ export default class Carousel {
       config = {
         ...this.defaultConfig,
         ...{
-          slidesPerView: 2,
+          breakpoints: {
+            769: {
+              slidesPerView: 2,
+            },
+          },
         },
       };
     }

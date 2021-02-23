@@ -19,7 +19,9 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    text-transform: uppercase;
+
+    font-family: var(--font-secondary);
+    margin-bottom: 0;
 }
 
 h3 {
@@ -32,4 +34,16 @@ h4 {
 
 h5 {
     font-size: var(--font-size-h5);
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+    h2 {
+        font-size: var(--font-size-768-h2);
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+    h2 {
+        font-size: var(--font-size-375-h2);
+    }
 }

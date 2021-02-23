@@ -155,3 +155,23 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-sm) {
+    .infoDeArtiste {
+        .textArtistes {
+            padding: 68px 0;
+            .nomArtiste {
+                font-size: var(--font-size-768-h1);
+            }
+        }
+        .mediasEtImages {
+            padding-left: 0;
+            .imagesArtiste {
+                img {
+                    height: 180px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

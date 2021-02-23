@@ -26,3 +26,14 @@
 .swiper-container {
     height: 620px;
 }
+
+@media screen and (max-width: $breakpoint-md) {
+    .imgPremierSlide {
+        height: 350px;
+    }
+    .autreEven {
+        .swiper-container {
+            height: 420px;
+        }
+    }
+}
