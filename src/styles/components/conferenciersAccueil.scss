@@ -49,3 +49,53 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-sm) {
+    .conferenciers {
+        h2 {
+            font-size: var(--font-size-768-h2);
+        }
+        .groupeConferenciers {
+            flex-direction: column;
+            .artiste {
+                width: 100%;
+                overflow: visible;
+                text-align: left;
+
+                &:hover {
+                    .infoArtiste {
+                        color: var(--color-tertiary);
+                    }
+                }
+
+                .imgConferencier {
+                    cursor: pointer;
+                }
+            }
+
+            .infoArtiste {
+                background-color: var(--color-bg-primaire);
+                text-align: left;
+                position: static;
+                align-items: flex-start;
+
+                color: var(--color-primary);
+                transition: all 0.3s ease-out;
+
+                margin-top: 16px;
+
+                .plus {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+    .conferenciers {
+        h2 {
+            font-size: var(--font-size-375-h2);
+        }
+    }
+}

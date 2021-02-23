@@ -89,3 +89,30 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-sm) {
+    .mobileModal {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                li:after {
+                    content: '';
+                    display: block;
+                    background-color: var(--color-secondary);
+                    margin-left: -10%;
+                    width: 120%;
+                    height: 2px;
+
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

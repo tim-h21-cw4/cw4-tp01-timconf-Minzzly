@@ -4,9 +4,15 @@ class Main {
   constructor() {
     this.init();
     this.ouvrirMenu();
+
+    this.hamburger;
+    this.menuMobile;
   }
 
   init() {
+    this.hamburger = document.querySelector('.menu-hamburger');
+    this.menuMobile = document.querySelector('.mobileModal');
+
     const components = document.querySelectorAll('[data-component="Carousel"]');
 
     for (let i = 0; i < components.length; i++) {
@@ -14,23 +20,16 @@ class Main {
       new Carousel(component);
     }
 
-    const hamburger = document.querySelector('.menu-hamburger');
-
-    hamburger.addEventListener('click', this.ouvrirMenu.bind(this));
+    this.hamburger.addEventListener('click', this.ouvrirMenu.bind(this));
   }
 
   ouvrirMenu(evt) {
-    const menuMobile = document.querySelector('.mobileModal');
-
-    evt.preventDefault();
-
-    const cible = evt.currentTarget;
-    if (cible.classList.contains('open')) {
-      cible.classList.remove('open');
-      menuMobile.classList.remove('open');
+    if (this.hamburger.classList.contains('open')) {
+      this.hamburger.classList.remove('open');
+      this.menuMobile.classList.remove('open');
     } else {
-      cible.classList.add('open');
-      menuMobile.classList.add('open');
+      this.hamburger.classList.add('open');
+      this.menuMobile.classList.add('open');
     }
   }
 }

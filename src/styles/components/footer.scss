@@ -44,3 +44,31 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: $breakpoint-sm) {
+    footer {
+        .navFooter {
+            padding: 0;
+            flex-direction: column;
+            li {
+                text-align: center;
+            }
+            li:not(li:nth-child(6)) {
+                margin: 0;
+                padding-bottom: 15px;
+            }
+        }
+        .topFooter {
+            img {
+                padding: 0;
+            }
+        }
+        .bottomFooter {
+            flex-direction: column-reverse;
+
+            .mediasSociaux {
+                padding: 30px 0;
+            }
+        }
+    }
+}
